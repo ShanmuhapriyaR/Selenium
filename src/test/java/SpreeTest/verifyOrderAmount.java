@@ -22,7 +22,7 @@ public class verifyOrderAmount extends Driver {
         myAccount.checkOut();
         Assert.assertEquals(myAccount.cartAmt,myAccount.orderTotalCheckout);
         System.out.println(myAccount.cartAmt+" and "+myAccount.orderTotalCheckout+ " are equal");
-        myAccount.deleteCartItems();
+        //myAccount.deleteCartItems();
 
     }
 }
